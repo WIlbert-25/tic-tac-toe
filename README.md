@@ -31,15 +31,9 @@ La compatibilidad con TypeScript ha sido una prioridad en versiones recientes de
 - *JSX:* Es una extensión de JavaScript que permite escribir código similar a XML/HTML dentro de archivos JavaScript. Es una sintaxis que facilita la escritura de elementos React de manera más legible y expresiva.
 - *Props:* Son la forma principal de transmitir información entre componentes. Los props son objetos que contienen valores y se pueden utilizar para configurar o personalizar un componente cuando se crea o renderiza.
 - *State:* Es un objeto que representa cómo está actualmente un componente en un momento específico. Es gestionado internamente por el componente y puede cambiar a lo largo del tiempo en respuesta a eventos o interacciones del usuario.
-- 
+  
 #### 4- Investiga sobre el patrón de diseño estructural llamado Composite, en qué consiste y cuál es su relación con React?
 - *Definicion:* Se utiliza para componer objetos en estructuras de árbol para representar jerarquías de parte-todo. El patrón permite a los clientes tratar tanto a objetos individuales como a composiciones de objetos de manera uniforme. La relación con React se evidencia en la manera en que se construyen las interfaces de usuario. Los componentes de React pueden anidarse unos dentro de otros para crear estructuras complejas.
-- 
+  
 #### 5- Investiga sobre el patrón de diseño estructural llamado State, en qué consiste y cuál es su relación con React?
 - *Definicion:* Permite que un objeto cambie su comportamiento cuando su estado interno cambia. Este patrón se basa en la encapsulación, donde se define una interfaz para cambiar el estado de un objeto, pero la implementación de cómo cambia el estado está oculta al cliente que utiliza el objeto. El patrón State es esencial en React para gestionar el estado de los componentes, ya sea a través de componentes de clase o mediante el uso de hooks en componentes funcionales. 
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
